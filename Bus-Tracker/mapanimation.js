@@ -1,16 +1,10 @@
-
-// API access token
 mapboxgl.accessToken = 'pk.eyJ1Ijoicmlwc25vcnRlciIsImEiOiJja3lhbndjdGowN2NkMnBwOGx0bXpkNWg1In0.p-NS558ozQhdxgEtmB77qw';
-
-// Map Styles
 let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/satellite-streets-v11',
   center: [-71.104081, 42.365554],
   zoom: 14
 });
-
-// Nav Controls - Zoom and Pitch
 const nav = new mapboxgl.NavigationControl({
     visualizePitch: true,
     showZoom: true,
@@ -24,7 +18,6 @@ color: "crimson",
   .setLngLat([-71.092761, 42.357575])
   .addTo(map);
 
-//   Bus stops GPS LngLat
 const busStops = [
 [-71.093729, 42.359244],
 [-71.094915, 42.360175],
@@ -40,7 +33,6 @@ const busStops = [
 [-71.118625, 42.374863],
 ];
 
-// Counter with Timer for animation
 let counter = 0;
 function move(){
 setTimeout(() =>{
