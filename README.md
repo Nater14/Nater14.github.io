@@ -1,4 +1,4 @@
-##Nater14.github.io
+Nater14.github.io
 
 Are you checking in on my progress as I journey to become a Developer? Right now, I am a student with MIT xPRO.
 
